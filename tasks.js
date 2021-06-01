@@ -86,8 +86,6 @@ app.use('/github-hook', function (req, res) {
 })
 
 
-
-
 mongoose.connect('mongodb+srv://max:SantaFanta@cluster0.k12zr.mongodb.net/trelloTasks?retryWrites=true&w=majority', { useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false }, function(err){
     if(err) return console.log(err);
 
