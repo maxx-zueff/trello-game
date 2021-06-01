@@ -8,6 +8,8 @@ const cardSchema = new Schema({
     },
     listID: String,
     term: Date,  // срок выполнения
+    start: Date, 
+    end: Date, 
     spent: Number, // потрачено времени в секундах
     income: Number // получено баллов
   });
